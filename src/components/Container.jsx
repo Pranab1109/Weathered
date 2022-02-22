@@ -17,7 +17,6 @@ const Container = () => {
         getWeatherData()
     }, [city])
 
-
     return (<>
         {
             loading ? <Loader /> :
